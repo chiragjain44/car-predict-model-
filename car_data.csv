@@ -1,0 +1,6 @@
+Car_Name,Year,Selling_Price,Present_Price,Kms_Driven,Fuel_Type,Seller_Type,Transmission,Owner
+Maruti Swift,2015,3.5,5.5,30000,Petrol,Dealer,Manual,0
+Hyundai i20,2012,2.0,6.0,45000,Diesel,Individual,Manual,1
+Honda City,2017,5.5,9.9,28000,Petrol,Dealer,Manual,0
+Toyota Innova,2013,4.8,10.5,60000,Diesel,Dealer,Manual,0
+Ford EcoSport,2016,6.2,8.7,35000,Petrol,Individual,Automatic,0
