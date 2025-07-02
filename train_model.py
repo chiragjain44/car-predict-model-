@@ -38,8 +38,10 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_
 # Fit the model
 pipeline.fit(X_train, y_train)
 y_pred=pipeline.predict(X_test)
-from sklearn.metrics import r2_score
-r2_score(y_test,y_pred)
+from sklearn.metrics import mean_absolute_error,mean_squared_error
+mean_absolute_error(y_test,y_pred)
+mean_squared_error(y_test,y_pred)
+
 
 # Save the model to a file
 with open('model.pkl', 'wb') as model_file:
